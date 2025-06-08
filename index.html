@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chanchal Yadav - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo"> Chanchal Yadav</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkModeToggle">🌙</button>
+  </nav>
+
+  <header id="hero" data-aos="fade-up">
+    <h1>Hello, I'm <span>Chanchal Yadav</span></h1>
+    <p>A B.Tech EE student & Aspiring Electrical Engineer</p>
+    <a href="resume/Chanchal_Yadav_Resume.pdf" download class="btn">Download Resume</a>
+  </header>
+
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="images/profile.jpg" alt="Chanchal Yadav" />
+      <p>
+        A dedicated B.Tech Electrical Engineering student with a strong interest in power systems, electronics, and sustainable energy.
+        Passionate about applying theoretical knowledge to practical, impactful projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="zoom-in">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>Circuit Analysis</li>
+      <li>Power Systems</li>
+      <li>Control Systems</li>
+      <li>Digital Electronics</li>
+      <li>Analog Electronics</li>
+      <li>MATLAB</li>
+      <li>Python (Basic)</li>
+      <li>C++ (Basic)</li>
+      <li>AutoCAD (Basic)</li>
+      <li>Renewable Energy</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="images/project1.png" alt="Basic Solar Power System Model" />
+      <div>
+        <h3>Basic Solar Power System Model</h3>
+        <p>
+          Designed and simulated a small-scale solar power generation system for residential use, focusing on efficiency and energy storage.
+        </p>
+      </div>
+    </div>
+    </section>
+
+  <section id="education" data-aos="flip-left">
+    <h2>Education</h2>
+    <p><strong>B.Tech Electrical Engineering - [Your University Name]</strong> - Current GPA/Percentage: [9.48]</p>
+    <p><strong>12th - ND Ganga School (CBSE)</strong> - 86%</p>
+    <p><strong>10th - ND Ganga School (CBSE)</strong> - 80%</p>
+  </section>
+
+  <section id="achievements" data-aos="fade-up">
+    <h2>Achievements</h2>
+    <ul>
+      <li>🏆 Participated in inter-college robotics competition</li>
+      <li>💡 Developed a mini-project on [Specific EE topic, e.g., smart lighting]</li>
+      <li>📚 Consistently achieved good academic standing in core EE subjects</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-left">
+    <h2>Contact Me</h2>
+    <form id="contactForm" method="POST" action="contact.php">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chanchal Yadav. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
